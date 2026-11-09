@@ -53,18 +53,9 @@ Clique em Deploy.
 
 ________________________________________________________________________
 
-🗺️ Próximos passos
- Adicionar mais categorias de vulnerabilidades (OWASP Top 10)
- Criar modo "treino": desafios para o usuário encontrar e corrigir a falha
- Incluir referências automáticas a CVEs e documentação oficial
- Histórico de conversas
- Testes automatizados
+🤝 Participe do projeto
 
-________________________________________________________________________
-
-🤝 Contribuindo
-
-Contribuições são bem-vindas!
+Contribuições são bem-vindas através da aba Discussions ou Issues.
 
 🙏 Créditos e inspiração
 
