@@ -1,5 +1,6 @@
 🪽 Whis — Agente de IA para Programadores e Profissionais de Segurança
 
+
 Um agente de IA didático que explica vulnerabilidades conhecidas com provas de conceito (PoC) educacionais e revela as particularidades do Python e de suas bibliotecas. Inspirado no mestre e anjo Whis, de Dragon Ball.
 
 
