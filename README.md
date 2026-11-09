@@ -32,8 +32,12 @@ Testar sistemas sem autorização é crime em diversos países, incluindo o Bras
 🛠️ Tecnologias utilizadas
 Python
 Streamlit
-Pillow
+grok
+
+
 API do modelo de IA utilizado (ex.: Anthropic)
+
+
 📂 Estrutura do projeto
 .
 ├── app.py              # Código principal da aplicação Streamlit
@@ -42,38 +46,9 @@ API do modelo de IA utilizado (ex.: Anthropic)
 ├── .env.example        # Exemplo das variáveis de ambiente
 ├── LICENSE
 └── README.md
-🚀 Como rodar localmente
-1. Clone o repositório
-bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
-2. Crie e ative um ambiente virtual
-bash
-python -m venv venv
 
-# Windows
-venv\Scripts\activate
 
-# Linux/Mac
-source venv/bin/activate
-3. Instale as dependências
-bash
-pip install -r requirements.txt
-4. Configure a chave da API
 
-Crie um arquivo .env na raiz do projeto (use o .env.example como base):
-
-API_KEY=sua_chave_aqui
-
-⚠️ Nunca suba o arquivo .env para o GitHub. Adicione .env ao seu .gitignore.
-
-No Streamlit Cloud, coloque a chave em Settings > Secrets.
-
-5. Execute o app
-bash
-streamlit run app.py
-
-O app abrirá no navegador em http://localhost:8501.
 
 💡 Exemplos de uso
 
@@ -85,6 +60,7 @@ Você pode perguntar coisas como:
 "Quais sinais no meu código indicam que ele pode estar vulnerável a injeção de comandos?"
 "Quais são as armadilhas de argumentos padrão mutáveis em Python?"
 "Como funciona uma injeção de comandos via subprocess e como evitá-la?"
+
 ☁️ Deploy
 
 O projeto pode ser publicado gratuitamente no Streamlit Community Cloud:
@@ -94,21 +70,20 @@ Acesse o Streamlit Cloud e conecte sua conta do GitHub.
 Selecione o repositório e o arquivo principal (app.py).
 Configure as chaves de API em Secrets.
 Clique em Deploy.
+
+
 🗺️ Próximos passos
  Adicionar mais categorias de vulnerabilidades (OWASP Top 10)
  Criar modo "treino": desafios para o usuário encontrar e corrigir a falha
  Incluir referências automáticas a CVEs e documentação oficial
  Histórico de conversas
  Testes automatizados
+
+
 🤝 Contribuindo
 
 Contribuições são bem-vindas!
 
-Faça um fork do projeto
-Crie uma branch (git checkout -b minha-feature)
-Faça o commit (git commit -m "Adiciona minha feature")
-Envie para o repositório (git push origin minha-feature)
-Abra um Pull Request
 🙏 Créditos e inspiração
 
 O personagem Whis pertence a Akira Toriyama / Toei Animation / Shueisha. Este projeto é uma homenagem de fã, sem fins lucrativos e sem qualquer afiliação oficial com os detentores dos direitos.
@@ -119,7 +94,6 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 👤 Autor
 
-Seu Nome
+Danilo França
 
-GitHub: @seu-usuario
-LinkedIn: seu-perfil
+GitHub: @m1st3rV
